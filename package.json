@@ -1,0 +1,22 @@
+{
+  "name": "control",
+  "author": {
+    "email": "steve@madhouseminers.com",
+    "name": "Stevan Goode",
+    "url": "https://madhousesteve.codes"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  }
+}
